@@ -1,16 +1,11 @@
 import fetch from 'node-fetch'
-import * as fs from 'node:fs/promises'
 import DomParser from 'dom-parser'
-//import writeFile from './writeToFile.mjs'
-function writeFile(filename,data){
-    fs.writeFile(filename + ".json",JSON.stringify(data,null,3), function () {})
-}
-
+import {readJson,writeJson} from './writeToFile.mjs'
 
 async function main(){
 
     const parser = new DomParser()
-    const data = JSON.parse(await fs.readFile('./data.json', 'utf8'))
+    const data = await readJson("data")
     let dataSliced = []
     const newList = []
 
@@ -35,7 +30,7 @@ async function main(){
                     }
                 })
                 let kappaRequiredFound = false
-                for(let i = 0;i < contentTrList.length;i++){
+                for(let i = 0; i < contentTrList.length && !kappaRequiredFound; i++){
                     if(contentTrList[i].getElementsByClassName("va-infobox-label")[0].textContent === "Required forKappa container"){
                         switch(contentTrList[i].getElementsByClassName("va-infobox-content")[0].textContent){
                             case"Yes":
@@ -48,9 +43,8 @@ async function main(){
                                 quest.kappa = "undefined"
                             break
                         }
+                        kappaRequiredFound = true
                     }
-                    
-                    //console.log(contentTrList[i].textContent)
                 }
                 return quest
             })
@@ -60,8 +54,6 @@ async function main(){
             })
         })
     }
-    //console.log(newList)
-    writeFile("data",newList)
+    await writeJson("data",newList)
 }
-
 main()
