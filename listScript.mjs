@@ -21,8 +21,28 @@ function printAllNotrequiretQuests(data){
     console.log(questCount)
 }
 
+function printAllNotrequiretQuestsInMarkDown(data){
+    data.forEach(quest => {
+        if(!quest.kappa && !ignoreList.includes(quest.name)){
+            console.log(`* [${quest.name}] (${quest.link})`)
+        }
+    })
+}
+
+function printAllNotrequiretQuestsCount(data){
+    let count = 0
+    data.forEach(quest => {
+        if(!quest.kappa && !ignoreList.includes(quest.name)){
+            count++
+        }
+    })
+    console.log(count)
+}
+
 async function main(){
     const data = await readJsonAsync("data")
-    printAllNotrequiretQuests(data)
+    //printAllNotrequiretQuests(data)
+    printAllNotrequiretQuestsInMarkDown(data)
+    //printAllNotrequiretQuestsCount(data)
 }
 main()
