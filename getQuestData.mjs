@@ -3,7 +3,7 @@ import * as fs from 'node:fs/promises'
 import DomParser from 'dom-parser'
 //import writeFile from './writeToFile.mjs'
 function writeFile(filename,data){
-    fs.writeFile(filename + "a.json",JSON.stringify(data,null,3), function () {})
+    fs.writeFile(filename + ".json",JSON.stringify(data,null,3), function () {})
 }
 
 
