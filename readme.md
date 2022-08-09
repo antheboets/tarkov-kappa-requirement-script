@@ -1,0 +1,1 @@
+[Escort](https://escapefromtarkov.fandom.com/wiki/Escort)
