@@ -1,8 +1,9 @@
+//
 const array = []
 const classess = ["wikitable Prapor-content","wikitable Mechanic-content","wikitable Skier-content","wikitable Fence-content","wikitable Ragman-content","wikitable Therapist-content","wikitable Peacekeeper-content","wikitable Jaeger-content"]
 const traders = ["Prapor","Mechanic","Skier","Fence", "Ragman","Therapist","Peacekeeper","Jaeger"]
 const txt = "https://escapefromtarkov.fandom.com"
-
+let id = 1
 for(let i = 0; i < classess.length ; i++){
     const rows = Array.from(document.getElementsByClassName(classess[i])[0].children[0].getElementsByTagName("tr"))
     rows.shift()
@@ -19,8 +20,8 @@ for(let i = 0; i < classess.length ; i++){
         Array.from(tr.children[3].children[0].children).forEach((li)=>{
             rewards.push(li.textContent)
         })
-        array.push({trader:traders[i],name:name,type:type,link:link,objectives:objectives,rewards:rewards,kappa:undefined})
+        array.push({id:id,trader:traders[i],name:name,type:type,link:link,objectives:objectives,rewards:rewards,kappa:undefined})
+        id++
     })
-    
 }
 console.log(array)
