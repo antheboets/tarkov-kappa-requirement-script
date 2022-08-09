@@ -12,30 +12,19 @@ async function main(){
     const newList = []
 
     for(let i = 0; i < Math.ceil(data.length / 50);i++){
-        if(i === Math.ceil(data.length / 50)){
-            dataSliced = data.slice(i * 50, data.length)
-        }
-        else{
-            dataSliced = data.slice(i * 50, (i + 1) * 50)
-        }
-        let it = 0
-        let it2 = 0
-        console.log("test",dataSliced.length,i,i < Math.ceil(data.length / 50))
+        dataSliced = data.slice(i * 50, (i + 1) * 50)
         await Promise.all(dataSliced.map(async (quest)=>{
-            console.log(quest.link,it)
-            it++
-            await fetch(quest.link,{method:'GET'}).then((res)=>{return res.json}).then((data)=>{
-                quest.kappa = true
-                console.log(it2,"done")
-                it2++
+            await fetch(quest.link,{method:'GET'}).then((res)=>{return res.text()}).then((html)=>{
+                //quest.kappa = 
+                //console.log(quest)
                 return quest
             })
         })).then((data)=>{
+            console.log(data)
             data.forEach((row)=>{
                 newList.push(row)
             })
         })
-        console.log("tes")
     }
     console.log(newList)
     //writeInitFIle("data",newList)
