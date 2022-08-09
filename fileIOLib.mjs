@@ -7,3 +7,7 @@ export async function writeJsonAsync(filename,data){
 export async function readJsonAsync(path){
     return JSON.parse(await fs.readFile(`./${path}.json`, 'utf8'))
 }
+
+export async function writeCSVAsync(filename,csv){
+    await fs.writeFile(`${filename}.csv`,csv, function () {})
+}
