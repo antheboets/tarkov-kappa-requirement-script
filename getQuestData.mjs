@@ -1,11 +1,11 @@
 import fetch from 'node-fetch'
 import DomParser from 'dom-parser'
-import {readJson,writeJson} from './fileIOLib.mjs'
+import {readJsonAsync,writeJsonAsync} from './fileIOLib.mjs'
 
 async function main(){
 
     const parser = new DomParser()
-    const data = await readJson("data")
+    const data = await readJsonAsync("data")
     let dataSliced = []
     const newList = []
 
@@ -54,6 +54,6 @@ async function main(){
             })
         })
     }
-    await writeJson("data",newList)
+    await writeJsonAsync("data",newList)
 }
 main()
