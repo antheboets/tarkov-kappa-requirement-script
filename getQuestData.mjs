@@ -14,13 +14,11 @@ async function main(){
     for(let i = 0; i < Math.ceil(data.length / 50);i++){
         dataSliced = data.slice(i * 50, (i + 1) * 50)
         await Promise.all(dataSliced.map(async (quest)=>{
-            await fetch(quest.link,{method:'GET'}).then((res)=>{return res.text()}).then((html)=>{
-                //quest.kappa = 
-                //console.log(quest)
+            return fetch(quest.link,{method:'GET'}).then((res)=>{return res.text()}).then((html)=>{
+                //get kappa form html
                 return quest
             })
         })).then((data)=>{
-            console.log(data)
             data.forEach((row)=>{
                 newList.push(row)
             })
