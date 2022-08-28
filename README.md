@@ -1,7 +1,6 @@
 The quest not required for unlocking the collector quest which you need to complete for the Kappa container.
 * [Polikhim Hobo - Eliminate 25 Scavs on Customs](https://escapefromtarkov.fandom.com/wiki/Polikhim_Hobo)
-* [Regulated Materials - Find 1 6-STEN-140-M military battery in raidHand over 1 6-STEN-140-M military battery to PraporFind 5 OFZ 
-30x160mm shells in raidHand over 5 OFZ 30x160mm shells to Prapor](https://escapefromtarkov.fandom.com/wiki/Regulated_Materials)    
+* [Regulated Materials - Find 1 military battery, Find 5 OFZ shells in raid](https://escapefromtarkov.fandom.com/wiki/Regulated_Materials)    
 * [Big Customer - Find the transport with the chemicalsMark the chemical transport vehicle with an MS2000 MarkerSurvive and extract from Customs](https://escapefromtarkov.fandom.com/wiki/Big_Customer)
 * [No Offence - Obtain 10 M67 grenadesHand over 10 M67 grenades to Prapor](https://escapefromtarkov.fandom.com/wiki/No_Offence)    
 * [Escort - You must not die or leave the raid while the task is active (Status: KIA, Left the Action, MIA, Ran Through)Eliminate 4 PMCs on daytime FactoryEliminate 4 PMCs on CustomsEliminate 4 PMCs on ShorelineEliminate 4 PMCs on ReserveEliminate 4 PMCs on WoodsEliminate 4 PMCs on InterchangeEliminate 4 PMCs on The Lab](https://escapefromtarkov.fandom.com/wiki/Escort)
