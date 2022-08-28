@@ -23,6 +23,13 @@ function printAllNotrequiretQuests(data){
 
 function printAllNotrequiretQuestsInMarkDown(data){
     data.forEach(quest => {
+        if(!quest.kappa){
+            console.log(`* [${quest.name}](${quest.link})`)
+        }
+    })
+}
+function printNotrequiretQuestsInMarkDown(data){
+    data.forEach(quest => {
         if(!quest.kappa && !ignoreList.includes(quest.name)){
             console.log(`* [${quest.name}](${quest.link})`)
         }
