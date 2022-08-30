@@ -1,4 +1,4 @@
-//
+//https://escapefromtarkov.fandom.com/wiki/Quests
 const array = []
 const classess = ["wikitable Prapor-content","wikitable Mechanic-content","wikitable Skier-content","wikitable Fence-content","wikitable Ragman-content","wikitable Therapist-content","wikitable Peacekeeper-content","wikitable Jaeger-content"]
 const traders = ["Prapor","Mechanic","Skier","Fence", "Ragman","Therapist","Peacekeeper","Jaeger"]
