@@ -32,14 +32,17 @@ function printNotrequiretQuestsInMarkDown(data){
     data.forEach(quest => {
         if(!quest.kappa && !ignoreList.includes(quest.name)){
             let objectives = ""
+            let first = true
             if(quest.shortObjectives !== undefined){
                 quest.shortObjectives.forEach((objective)=>{
-                    objectives += objective
+                    objectives += `${first? "" :", "}${objective}`
+                    first = false
                 })
             }
             else{
                 quest.objectives.forEach((objective)=>{
-                    objectives += objective
+                    objectives += `${first? "" :", "}${objective}`
+                    first = false
                 })
             }
             console.log(`* [${quest.name} - ${objectives}](${quest.link})`)
