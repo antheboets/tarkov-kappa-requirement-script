@@ -8,8 +8,7 @@
     "Regulated Materials":{
         "name":"Regulated Materials",
         "shortObjectives":[
-            "Give 1 FIR military battery",
-            "Give 5 FIR OFZ shells"
+            "Give 1 FIR military battery and 5 FIR OFZ shells"
         ]
     },
     "Big Customer":{
@@ -27,7 +26,7 @@
     "Escort":{
         "name":"Escort",
         "shortObjectives":[
-            "Kill 4 PMCs on daytime Factory, Customs, Shoreline, Reserve, Woods, Interchange, Labs without ever not extraction without a survive status"
+            "Kill 4 PMCs on daytime Factory, Customs, Shoreline, Reserve, Woods, Interchange, Labs and extract with a survive status"
         ]
     },
     "Our Own Land":{
@@ -46,8 +45,7 @@
     "The Courier":{
         "name":"The Courier",
         "shortObjectives":[
-            "Stash 1 REAP-IR at the crane on Customs",
-            "Stash 1 REAP-IR behind new gas on Customs"
+            "Stash a REAP-IR at the crane and one behind new gas on Customs"
         ]
     },
     "Chemical - Part 4":{
@@ -71,13 +69,13 @@
     "Night Sweep":{
         "name":"Night Sweep",
         "shortObjectives":[
-            "Give 12 cultist knives to Skier"
+            "Give 12 cultist knives"
         ]
     },
     "The Choice":{
         "name":"The Choice",
         "shortObjectives":[
-            "Give the Epsilon to Fence"
+            "Give the Epsilon"
         ]
     },
     "The Stylish One":{
@@ -89,9 +87,8 @@
     "Textile - Part 2":{
         "name":"Textile - Part 2",
         "shortObjectives":[
-            "Give 10 FIR fleece",
-            "Give 10 FIR cordura",
-            "Give 10 FIR KEKTAPE"
+            "Give 10 FIR fleece and cordura",
+            "Give 5 FIR KEKTAPE"
         ]
     },
     "Supply Plans":{
@@ -104,10 +101,8 @@
         "name":"Colleagues - Part 3",
         "shortObjectives":[
             "Don't kill Sanitar",
-            "Give Blue Keycard",
-            "Give Green keycard",
-            "Give FIR AHF1-M stim",
-            "GIVE FIR 3-(b-TG) stim"
+            "Give Blue and Green keycard",
+            "Give FIR AHF1-M and FIR 3-(b-TG) stim"
         ]
     },
     "Out of Curiosity":{
@@ -120,18 +115,18 @@
         "name":"Trust Regain",
         "shortObjectives":[
             "Give dorms 303 key",
-            "Give ZB-014 key",
-            "Give checkpoint key",
-            "Give gas station storage key"
+            "ZB-014 key",
+            "checkpoint key",
+            "gas station storage key"
         ]
     },
     "Crisis":{
         "name":"Crisis",
         "shortObjectives":[
             "Give 5 FIR defibrillators",
-            "Give 5 FIR LEDXs",
-            "Give 20 FIR piles of meds",
-            "Give 10 FIR multivitamins"
+            "LEDXs",
+            "20 FIR piles of meds",
+            "10 FIR multivitamins"
         ]
     },
     "The Cleaner":{
@@ -144,10 +139,10 @@
         "name":"Special Equipment",
         "shortObjectives":[
             "Give 5 FIR VPXs",
-            "Give 5 FIR RFIDs",
-            "Give 5 FIR virtexs",
-            "Give 5 FIR SG-C10s",
-            "Give 5 FIR military flash drives"
+            "RFIDs",
+            "virtexs",
+            "SG-C10s",
+            "military flash drives"
         ]
     },
     "Counteraction":{
@@ -179,7 +174,7 @@
     "The Huntsman Path - Relentless":{
         "name":"The Huntsman Path - Relentless",
         "shortObjectives":[
-            "Kill Tagilla, Killa, Reshala, shturman, glukhar, sanitar without ever not extraction without a survive status"
+            "Kill Tagilla, Killa, Reshala, shturman, glukhar, sanitar and extract with a survive status"
         ]
     },
     "":{
