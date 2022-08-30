@@ -56,7 +56,6 @@ async function main(){
         })
     }
     newList.forEach((quest)=>{
-        console.log(shortObjectivesData[quest.name] !== undefined,quest.name)
         if(shortObjectivesData[quest.name] !== undefined){
             quest.shortObjectives = shortObjectivesData[quest.name].shortObjectives
         }
