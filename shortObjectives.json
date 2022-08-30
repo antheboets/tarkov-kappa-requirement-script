@@ -15,174 +15,171 @@
     "Big Customer":{
         "name":"Big Customer",
         "shortObjectives":[
-            ""
+            "Mark the chemicals part 4 van on Customs for Prapor"
         ]
     },
-    "":{
-        "name":"",
+    "No Offence":{
+        "name":"No Offence",
         "shortObjectives":[
-            "Give 10 M67"
+            "Give 10 M67 grenades"
         ]
     },
-    "":{
-        "name":"",
+    "Escort":{
+        "name":"Escort",
         "shortObjectives":[
-            "",
-            ""
+            "Kill 4 PMCs on daytime Factory, Customs, Shoreline, Reserve, Woods, Interchange, Labs without ever not extraction without a survive status"
         ]
     },
-    "":{
-        "name":"",
+    "Our Own Land":{
+        "name":"Our Own Land",
         "shortObjectives":[
-            "",
-            ""
+            "Kill 20 USECs on Lighthouse",
+            "give 20 USEC dogtags"
         ]
     },
-    "":{
-        "name":"",
+    "Calibration":{
+        "name":"Calibration",
         "shortObjectives":[
-            "",
-            ""
+            "Kill 20 PMCs from 100 meters"
         ]
     },
-    "":{
-        "name":"",
+    "The Courier":{
+        "name":"The Courier",
         "shortObjectives":[
-            "",
-            ""
+            "Stash 1 REAP-IR at the crane on Customs",
+            "Stash 1 REAP-IR behind new gas on Customs"
         ]
     },
-    "":{
-        "name":"",
+    "Chemical - Part 4":{
+        "name":"Chemical - Part 4",
         "shortObjectives":[
-            "",
-            ""
+            "Mark the chemicals part 4 van on Customs for Skier"
         ]
     },
-    "":{
-        "name":"",
+    "Loyalty Buyout":{
+        "name":"Loyalty Buyout",
         "shortObjectives":[
-            "",
-            ""
+            "Give Skier 1 MIL RUB"
         ]
     },
-    "":{
-        "name":"",
+    "Kind of Sabotage":{
+        "name":"Kind of Sabotage",
         "shortObjectives":[
-            "",
-            ""
+            "Give the bungalow folder(0052) on woods to Skier"
         ]
     },
-    "":{
-        "name":"",
+    "Night Sweep":{
+        "name":"Night Sweep",
         "shortObjectives":[
-            "",
-            ""
+            "Give 12 cultist knives to Skier"
         ]
     },
-    "":{
-        "name":"",
+    "The Choice":{
+        "name":"The Choice",
         "shortObjectives":[
-            "",
-            ""
+            "Give the Epsilon to Fence"
         ]
     },
-    "":{
-        "name":"",
+    "The Stylish One":{
+        "name":"The Stylish One",
         "shortObjectives":[
-            "",
-            ""
+            "Kill Killa 100 times"
         ]
     },
-    "":{
-        "name":"",
+    "Textile - Part 2":{
+        "name":"Textile - Part 2",
         "shortObjectives":[
-            "",
-            ""
+            "Give 10 FIR fleece",
+            "Give 10 FIR cordura",
+            "Give 10 FIR KEKTAPE"
         ]
     },
-    "":{
-        "name":"",
+    "Supply Plans":{
+        "name":"Supply Plans",
         "shortObjectives":[
-            "",
-            ""
+            "Give the bungalow folder(0052) on woods to Therapist"
         ]
     },
-    "":{
-        "name":"",
+    "Colleagues - Part 3":{
+        "name":"Colleagues - Part 3",
         "shortObjectives":[
-            "",
-            ""
+            "Don't kill Sanitar",
+            "Give Blue Keycard",
+            "Give Green keycard",
+            "Give FIR AHF1-M stim",
+            "GIVE FIR 3-(b-TG) stim"
         ]
     },
-    "":{
-        "name":"",
+    "Out of Curiosity":{
+        "name":"Out of Curiosity",
         "shortObjectives":[
-            "",
-            ""
+            "Mark the chemicals part 4 van on Customs for Therapist"
         ]
     },
-    "":{
-        "name":"",
+    "Trust Regain":{
+        "name":"Trust Regain",
         "shortObjectives":[
-            "",
-            ""
+            "Give dorms 303 key",
+            "Give ZB-014 key",
+            "Give checkpoint key",
+            "Give gas station storage key"
         ]
     },
-    "":{
-        "name":"",
+    "Crisis":{
+        "name":"Crisis",
         "shortObjectives":[
-            "",
-            ""
+            "Give 5 FIR defibrillators",
+            "Give 5 FIR LEDXs",
+            "Give 20 FIR piles of meds",
+            "Give 10 FIR multivitamins"
         ]
     },
-    "":{
-        "name":"",
+    "The Cleaner":{
+        "name":"The Cleaner",
         "shortObjectives":[
-            "",
-            ""
+            "Kill 50 raiders on Reserve"
         ]
     },
-    "":{
-        "name":"",
+    "Special Equipment":{
+        "name":"Special Equipment",
         "shortObjectives":[
-            "",
-            ""
+            "Give 5 FIR VPXs",
+            "Give 5 FIR RFIDs",
+            "Give 5 FIR virtexs",
+            "Give 5 FIR SG-C10s",
+            "Give 5 FIR military flash drives"
         ]
     },
-    "":{
-        "name":"",
+    "Counteraction":{
+        "name":"Counteraction",
         "shortObjectives":[
-            "",
-            ""
+            "Kill 20 BEARs on Lighthouse",
+            "Give 20 FIR BEAR dogtags"
         ]
     },
-    "":{
-        "name":"",
+    "Trophies":{
+        "name":"Trophies",
         "shortObjectives":[
-            "",
-            ""
+            "Give 20 FIR lvl 50+ BEAR dogtags",
+            "Give 20 FIR lvl 50+ USEC dogtags"
         ]
     },
-    "":{
-        "name":"",
+    "The Huntsman Path - Sadist":{
+        "name":"TThe Huntsman Path - Sadist",
         "shortObjectives":[
-            "",
-            ""
+            "Kill Sanitar"
         ]
     },
-    "":{
-        "name":"",
+    "Hunter":{
+        "name":"Hunter",
         "shortObjectives":[
-            "",
-            ""
+            "Kill shturman 25 times"
         ]
     },
-    "":{
-        "name":"",
+    "The Huntsman Path - Relentless":{
+        "name":"The Huntsman Path - Relentless",
         "shortObjectives":[
-            "",
-            ""
+            "Kill Tagilla, Killa, Reshala, shturman, glukhar, sanitar without ever not extraction without a survive status"
         ]
     },
     "":{
