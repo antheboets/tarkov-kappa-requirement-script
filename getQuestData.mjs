@@ -6,6 +6,7 @@ async function main(){
 
     const parser = new DomParser()
     const data = await readJsonAsync("data")
+    const shortObjectivesData = await readJsonAsync("shortObjectives")
     let dataSliced = []
     const newList = []
 
@@ -54,6 +55,12 @@ async function main(){
             })
         })
     }
+    newList.forEach((quest)=>{
+        console.log(shortObjectivesData[quest.name] !== undefined,quest.name)
+        if(shortObjectivesData[quest.name] !== undefined){
+            quest.shortObjectives = shortObjectivesData[quest.name].shortObjectives
+        }
+    })
     await writeJsonAsync("data",newList)
 }
 main()
